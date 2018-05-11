@@ -1,0 +1,392 @@
+body{
+    background-color: #102027;
+}
+h3{
+    color: #ffff;
+}
+h4{
+    color: #ffff;
+}
+p{
+    color: #ffff;
+}
+span{
+    color: #ffff;
+}
+
+/* HOME SECTION STARTS  */
+#top-left-rect{
+    width: 20%;
+}
+
+#top-right-tri{
+    padding-top: 50px;
+    width: 50%;
+}
+
+#logo{
+    width: 50%;
+}
+
+#home .logo{
+    padding-top: 50px;
+}
+
+#home .logo-text{
+    font-size: 18px; 
+    padding-top: 10px
+}
+
+/* #home .oval {
+    margin-left: -10px;
+} */
+
+#oval{
+    width: 70%;
+}
+
+#home .mouse-icon{
+    padding-top: 180px;
+    width: 15px;
+
+}
+
+#bottom-rect{
+    padding-top: 70px;
+    width: 129%
+}
+
+/* HOME SECTION ENDS */
+
+/* PILLARS SECTION STARTS */
+
+#oval2 {
+    width: 70%;
+}
+
+
+#pillars .img-width{
+    width: 150%;
+}
+
+#pillars .loyalty{
+    padding-top: 30px
+}
+
+#pillars .encourage{
+    padding-top: 60px
+}
+
+#pillars .tab-content {
+    padding-left: 40px
+}
+
+#pillars .mouse-2 {
+    padding-top: 90px; 
+    /* margin-left: -30px */
+}
+
+
+    
+#pillars .orange-square{
+    margin-top: 0px
+}
+/*  PILLARS SECTION ENDS */
+
+
+/*  FEATURE SECTION STARTS */
+
+#features .h{
+    margin-top: -70px; margin-left: -25px
+}
+
+#features .purple-rect{
+        
+    margin-left: -5px;
+    margin-top: -80px;
+}
+
+
+#mouse-3{
+
+    width: 5%; 
+    margin-left: 20px; 
+    margin-top: 50px
+}
+
+#mouse-{
+
+    width: 5%;
+    margin-top: 50px
+}
+
+/*  FEATURE SECTION ENDS */
+
+
+/*  CONTACT SECTION STARTS */
+    #contact{
+        background-color: lightgray;
+        display: none;
+        
+    }
+
+    #contact h4{
+        color: darkslategrey;
+        font-weight: bold
+    }
+    #contact span > a{
+        color: #891e82;
+        font-size: 0.8em;
+        margin-right: 10px
+    }
+
+    
+    #contact p{
+        color: grey;
+        font-weight: bold
+    }
+
+    #contact .contact-text{
+        padding-top: 30px;
+    }
+
+    
+    #contact .form{
+        padding-top: 30px;
+    }
+
+    .form-control{
+        border-radius: 15px;
+    }
+
+    #contact .form-group{
+        padding-bottom: 12px
+    }
+
+    #contact .submit{
+        border-radius: 15px;
+        background-color: #891e82;
+        color: #fff;
+    }
+    
+/*  CONTACT SECTION ENDS */
+
+/* ABOUT SECTION STARTS */
+    #about-content{
+        padding-top: 60px
+    }
+
+    #about .about-nav{
+        margin-left: 80px;
+        position: fixed;
+
+    }
+
+    #about .fixed-images{
+        position: fixed;
+    }    
+    
+    #about .left-rect{
+        padding-left: 20px;
+        width: 8%;
+    }    
+
+    #about .bottom-triangle{
+        padding-top: 200px; 
+        width: 50%
+    }
+
+    #about .img-right-top{
+        width: 12%; 
+        padding-top: 50px;
+    }
+
+    #about .img-right-bottom{
+        width: 12%; 
+        padding-top: 450px;
+    }
+
+    #about .author-img{
+        width: 100%;
+    }
+
+/* ABOUT SECTION ENDS */
+
+/* navtabs */
+    .nav-tabs {
+        margin-left: 80px;
+        border-bottom: none;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    
+    .nav-tabs>li>a{
+        font-size: 1.1em;
+        color: darkslategrey;
+    
+    }
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        color: purple;
+        font-weight: bolder;
+        cursor: default;
+        background-color: transparent;
+        border: none;
+        border-bottom-color: transparent;
+    }
+    
+/* To Stick divs on screen */
+.stick {
+    position:fixed;
+    /* top:0px; */
+}
+
+
+/*MEDIA QUERIES for SM*/
+@media(max-width: 1000px) {
+
+    #oval{
+        width: 50%;
+        padding-top: 34px;
+
+    }
+
+    #oval2{
+        width: 50%;
+    }
+
+    #home .oval {
+        margin-left: -30px;
+        
+    }
+
+    #home .mouse-icon{
+        padding-top: 82px;
+
+    }
+
+    #bottom-rect {
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    #pillars .oval {
+        margin-left: -30px;
+    }
+
+    
+}
+/*MEDIA QUERIES for XS STARTS*/
+
+@media(max-width: 800px) {
+
+    /* HOME SECTION STARTS */
+
+    
+    #oval{
+        width: 100%;
+    }
+    #home .logo-text{
+        font-size: 12px;
+    }
+
+    #home .oval {
+        margin-left: -25px;
+    }
+
+    #home .mouse-icon{
+        display: none
+    }
+
+    #bottom-rect{
+        padding-top: 38px;
+        width: 120%
+    }
+
+    /* HOME SECTION ENDS */
+
+    /*  NAVPAGE SECTION STARTS */
+
+    #pillars .oval{
+        margin-left: -25px;
+    }
+    
+
+    #pillars .mouse-2 {
+        display: none;
+    }
+
+    #pillars .engaged{
+        padding-top: 60px
+    }
+    
+    #pillars .loyalty{
+        padding-top: 120px
+    }
+
+    #pillars .encourage{
+        padding-top: 180px
+    }
+
+    /*  NAVPAGE SECTION ENDS */
+
+    /*  FEATURE SECTION STARTS */
+
+    #features .purple-rect{
+        
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+
+    /*  FEATURE SECTION ENDS */
+
+    /* navtabs */
+    .nav-tabs {
+        font-size: 0.3em;
+        margin-left: -10px;
+    }
+
+    .nav-2{
+        margin-left: 90px;
+    }
+
+    #oval2 {
+        width: 100%;
+    }
+
+    #mouse-3{
+
+        width: 10%; 
+        margin-left: 20px; 
+        margin-top: 50px
+    }
+
+    /* ABOUT SECTION STARTS */
+    #about .left-rect{
+        width: 20%
+    }
+
+    #about .bottom-triangle {
+        padding-top: 280px;
+        width: 32%;
+    }
+
+    #about .img-right-top {
+        width: 81%;
+        padding-top: 100px;
+    }
+
+    #about .img-right-bottom {
+        width: 100%;
+        padding-top: 350px;
+    }
+    
+    #about .author-img{
+        width: 200%;
+        z-index: -10;
+    }
+    /* ABOUT SECTION ENDS */
+    
+}
+
+/*MEDIA QUERIES ENDS*/
